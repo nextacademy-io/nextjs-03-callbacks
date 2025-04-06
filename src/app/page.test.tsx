@@ -12,6 +12,6 @@ describe('Home Page', () => {
   test('renders Profile Picture', () => {
     render(<Home />);
     const main = within(screen.getByRole('main'));
-    expect(main.getByRole('img', { name: /Profile Picture/i })).toBeVisible();
+    expect(main.getAllByRole('img', { name: /Profile Picture/i })).toHaveLength(3);
   });
 });

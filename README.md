@@ -2,6 +2,12 @@
 
 In this task we'd like to notify the parent component `Home` on each click on the `ProfilePicture` component.
 
+
+
+https://github.com/user-attachments/assets/78cdad67-e04e-47e1-935e-422e43c1be32
+
+
+
 ## 1. Introduce the callback `onClick` as optional prop of the `ProfilePicture` component.
 
 The Payload of this event is the _pictureUrl_.

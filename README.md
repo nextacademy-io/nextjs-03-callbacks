@@ -31,8 +31,8 @@ You may want to use [vi.fn](https://vitest.dev/api/vi.html#vi-fn)
 
 `console.log(...)` the received `pictureUrl`.
 
-> [!WARN]
-> Make sure to have the `'use Client'` annotation on top of the `app/page.tsx` file.
+> [!WARNING]
+> Make sure to have the [use client](https://nextjs.org/docs/app/api-reference/directives/use-client) directive on top of the `app/page.tsx` file.
 
 ## 5. Optional: Add hover CSS transition
 

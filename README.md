@@ -31,6 +31,9 @@ You may want to use [vi.fn](https://vitest.dev/api/vi.html#vi-fn)
 
 `console.log(...)` the received `pictureUrl`.
 
+> [!WARN]
+> Make sure to have the `'use Client'` annotation on top of the `app/page.tsx` file.
+
 ## 5. Optional: Add hover CSS transition
 
 ```
